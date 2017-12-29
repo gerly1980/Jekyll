@@ -1,15 +1,17 @@
-# Site navigation links
+ # Site navigation links
 
 - title: HTML
-  url: /portfolio/ 
-  excerpt: "RWD 笔记"
-  
+  url: /portfolio/
+  excerpt: "notebook of RWD"
+  image: learning_teaching.gif
 
 - title: tableau
-  url: /infovis/ 
-  excerpt: "信息可视化作品集"
+  url: /infovis/
+  excerpt: "tableau homework"
+  image: Tower_of_Babel.jpg
+
 
 - title: About me
   url: /contact/
-  excerpt: "关于我"
+  excerpt: "联络我"
   image: Pigeon_post.jpg
