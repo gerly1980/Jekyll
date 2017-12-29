@@ -10,6 +10,9 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
+	background-image:
+    linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
+    url('../images/Jekyll_skinny_bones.jpg');
 }
 
 p {
