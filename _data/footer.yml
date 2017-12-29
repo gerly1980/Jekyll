@@ -1,0 +1,4 @@
+# Footer navigation links
+
+- title: （要改）这里在_data文件夹的foot.yml里面修改。notepad+打开，当你打开文件看到这一行的时候，把下面的链接改为自己的github网页
+  url: https://hanteng.github.io
