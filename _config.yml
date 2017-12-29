@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "（要改的）网站名字"
-description: "（要改的）不懂单词就百度"
+title: "My Blog"
+description: "This is my blog。"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: zh_CN # 本地化翻譯
@@ -26,13 +26,13 @@ gems:
 
 # Site owner
 owner:
-  name: （要改的）名字
-  email: （要改的）邮箱
-  twitter: 
-  google:
+  name: zhihaopy
+  email: 784716740@qq.com
+  twitter: none
+  google:none
     ad-client:
     ad-slot:
-  bio: "（要改的）个人介绍"
+  bio: "zhihao ni da ge"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
