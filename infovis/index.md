@@ -2,6 +2,9 @@
 layout: default
 title:  "hello，hanteng ge"
 categories: infovis
+image:
+  teaser: gembox.png
+  feature: gembox.png
 ---
 
 ## 概要
