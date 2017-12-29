@@ -2,10 +2,7 @@
 layout: default
 title:  "How can I do？"
 categories: portfolio
----
-layout: default
-title:  "SDG"
-categories: SDG portfolio visualization
+
 ---
 ## 概要
 《2017年可持续发展目标报告》回顾了在实施2030年可持续发展议程的第二年，17项目标的进展情况。该报告基于最新的可用数据，突出强调了随着国际社会越来越充分地认识到2030年议程所倡导的宏伟目标和原则，而面临的收获与挑战。
