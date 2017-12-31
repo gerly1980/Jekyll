@@ -1,0 +1,17 @@
+ # Site navigation links
+
+- title: HTML
+  url: /portfolio/
+  excerpt: "notebook of RWD"
+  image: learning_teaching.gif
+
+- title: tableau
+  url: /infovis/
+  excerpt: "tableau homework"
+  image: Tower_of_Babel.jpg
+
+
+- title: About me
+  url: /contact/
+  excerpt: "联络我"
+  image: Pigeon_post.jpg

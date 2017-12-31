@@ -1,45 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site wide configuration
 
-# Site settings
-title: zhi hao 
-email: 784716740@qq.com
+title: "my blog"
 description: "this is my blog"
-baseurl: "" # the subpath of your site, e.g. /blog
-lang: "ch-CN"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
 locale: zh_CN # 本地化翻譯
-url: "www.zhihaopy.github.io" # the base hostname & protocol for your site
-twitter_username: hao ge
-github_username:  zhihaopy
-disqus_username:
+url:
+feed:
+  path: atom.xml
 
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
-
-# Posts settings
-future: true
-safe: false
-lsi: false
-excerpt_separator: "\n\n"
-
-# Theme settings
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings: all
-  endings: all
-
+# Jekyll configuration
 
 sass:
-  sass_dir: assets/_sass
+  sass_dir: _sass
   style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
-
-images: '/assets/images'
 
 # Site owner
 owner:
@@ -52,3 +35,30 @@ owner:
   bio: "社会你豪哥"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
+
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
