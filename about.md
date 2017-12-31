@@ -5,7 +5,6 @@ title: "About me"
 crawlertitle: "Why and how this blog was created"
 permalink: /about/
 summary: "2017 resume by tableau"
-active: about
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)

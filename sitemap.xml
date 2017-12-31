@@ -29,27 +29,4 @@ sitemap:
     {% endif %}
   {% endfor %}
 
-  {% for post in site.portfolio %}
-  <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
-    {% if post.lastmod == null %}
-      <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-    {% else %}
-      <lastmod>{{ post.lastmod | date: "%Y-%m-%d" }}</lastmod>
-    {% endif %}
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  {% endfor %}
-  
-  {% for page in site.pages %}
-    {% if page.sitemap != null and page.sitemap != empty %}
-    <url>
-      <loc>{{ site.url }}{{ page.url }}</loc>
-      <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-      <priority>{{ page.sitemap.priority }}</priority>
-    </url>
-    {% endif %}
-  {% endfor %}
-
 </urlset>
