@@ -3,6 +3,7 @@
 * ========================================================================== */
 a {
   color: #333;
+  
   &:hover,
   &:focus,
   &:active { text-decoration: none; }
@@ -211,9 +212,8 @@ article {
   img,
   embed,
   object,
-  video,
-  iframe {
-    display: block;
+  video {
+    display: flex;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
@@ -230,7 +230,7 @@ article {
   img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     margin: 1em auto;
     padding: .2em;
     background-color: #fff;
@@ -333,3 +333,4 @@ article {
     display: block;
   }
 }
+
