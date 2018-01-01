@@ -10,7 +10,7 @@ active: infovis
 ---
 # This is my Tableau portfolio!
 
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 15 %}
 	{% if post.tags contains "infovis" %}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
