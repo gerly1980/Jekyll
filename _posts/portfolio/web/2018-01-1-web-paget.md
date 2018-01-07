@@ -4,13 +4,13 @@ bg: "tools.jpg"
 title:  "blog page power by RWD example"
 crawlertitle: "blog page"
 summary: "blog page power by RWD example"
-date: 2017-12-30	
+date: 2017-12-31	
 tags: "portfolio"
 categories:
   - portfolio
 ---
 
-<img src="/portfolio/image/page.jpg" alt="The picture of blog page"/>
+<img src="/portfolio/image/page.jpg" alt="The picture of blog page" width="300px" height="260px">
 
 
 <html lang="en">
