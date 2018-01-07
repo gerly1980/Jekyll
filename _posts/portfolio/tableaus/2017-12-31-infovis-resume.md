@@ -1,15 +1,14 @@
 ---
 layout: page
 title: Resume 2017<--
-date: 2
+date: 2018-01-05
 description: 使用tableau设计的个人简历
 bg: "infovis.jpg"
-date: 2017-12-29
 tags: "infovis"
 categories:
   - infovis
 ---
-<img src="/infovis/tableau/resume.jpg" alt="The resueme by tableau" width="400px" height="300px"	>
+<img src="/infovis/tableau/resume.jpg" alt="The resueme by tableau" width="200px" height="260px"	>
 * 作品介绍：使用tableau设计的个人简历
 * 使用数据：成绩、工作经历等；
 
