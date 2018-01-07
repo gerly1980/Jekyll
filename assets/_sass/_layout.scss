@@ -9,21 +9,6 @@ a {
   &:active { text-decoration: none; }
 }
 
-a:link,a:visited
-{
-display:block;
-font-weight:bold;
-text-align:center;
-padding:4px;
-text-decoration:none;
-}
-a:hover,a:active
-{
-background-color:#7A991A;
-transform: scale(1.4);  
-}
-
-
 /*
 * Toggle Button
 * ========================================================================== */
