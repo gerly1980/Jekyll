@@ -203,6 +203,14 @@ main {
     width: 100px;
     left: 50%;
   }
+  a:link,a:visited
+{
+display:block;
+font-weight:bold;
+text-align:center;
+padding:4px;
+text-decoration:none;
+}
 }
 
 article {
