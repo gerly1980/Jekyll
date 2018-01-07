@@ -1,6 +1,6 @@
 ---
 bg: "tag.jpg"
-layout: default
+layout: page
 title:  "infovis"
 crawlertitle: "All tableau"
 bg: "owl.jpg"
@@ -8,7 +8,6 @@ permalink: /infovis/
 summary: "Posts about Web"
 active: infovis
 ---
-# This is my Tableau portfolio!
 
 {% for post in site.posts limit: 15 %}
 	{% if post.tags contains "infovis" %}

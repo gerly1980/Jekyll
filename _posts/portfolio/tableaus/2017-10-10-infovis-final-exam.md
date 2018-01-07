@@ -1,21 +1,21 @@
 ---
 layout: page
 title: 可视化期末作品<--
-date: 2018-01-01 17:49:20 +0300
+date: 2018-01-04
 description: 中国交通设施分布情况
 bg: "infovis.jpg"
-date: 2017-12-29
+date: 2018-01-01
 tags: "infovis"
 categories:
   - infovis
 ---
-
-#### 作品介绍：中国交通设施分布情况
-######  数据来源：高德地图API；国家数据：三大经济地带
- * 使用关键词：地铁站、高铁站、火车站、汽车站、飞机场；
-###### 作品目的：
-	* 中国交通设施在三大经济地带的分布情况？
-	* 中国交通设施在三大经济地带的数量？
+<a href="/infovis/infovis-final-exam/"><img src="/infovis/tableau/try.jpg" alt="The picture by final exam" width="600px" height="260px"></a>
+* 作品介绍：中国交通设施分布情况
+* 使用关键词：地铁站、高铁站、火车站、汽车站、飞机场；
+* 故事：
+	* 飞机场和火车站遍布中国所有城市
+	* 地铁站的分布以东部地区居多，且覆盖率最少
+	* 高铁集中在东部及中部，火车站中部最多
 
 
 
