@@ -12,7 +12,7 @@ active: infovis
 {% for post in site.posts limit: 15 %}
 	{% if post.tags contains "infovis" %}
   <article class="index-page">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     {{ post.excerpt }}
   </article>
 	{% endif %}
