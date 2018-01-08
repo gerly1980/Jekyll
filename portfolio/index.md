@@ -20,11 +20,11 @@ active: what
 <link rel="stylesheet" href="/portfolio/style.css">
 </head>
 <body>
-<h3>期末专题</h3>
+<img src="/portfolio/image/exam.png" alt="The picture of blog page" width="100%" height="90px">
 <div class="flexbox-container">
 	<div class="left" >
 * 交通设施分布情况：<br>飞机场和火车站分布最广，高铁和地铁设施集中在东部地区。汽车站数量最多。
-<img src="/portfolio/image/fenbu.jpg" alt="The picture of blog page" width="350px" height="400px">
+<img src="/portfolio/image/fenbu.png" alt="The picture of blog page" width="350px" height="400px">
 <br>- 三大地带比较：<br>东部地带各类设施拥有率最高
 	</div>
 	<div class="right">
