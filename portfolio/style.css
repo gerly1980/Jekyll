@@ -1,0 +1,25 @@
+
+.flexbox-container{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+.flexbox-container > .left {
+	width: 55%;
+	padding: 0 24px;
+
+}
+.flexbox-container > .right {
+	width: 45%;
+	padding: 0 2px;
+}
+.left > p{
+	padding: 0.1rem ;
+	margin: 1.2rem 0 0;
+}
+.right > div {
+	max-width:100%;
+	display: block;
+	padding: .2rem .2rem;
+	border: 1px dashed black;
+}
