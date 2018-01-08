@@ -1,0 +1,135 @@
+
+
+/*section*/
+.FlexWrapper {
+	display: flex;
+	flex-direction: column;
+}
+/**/
+
+/**/
+.FlexHeader {
+	background-color: #105B63;
+	order: 1;
+}
+
+.FlexContentOne {
+	background-color: #FFFFF0;
+	order: 3;
+}
+.FlexContentTwo {
+	background-color: #FFFFF0;
+	order: 5;
+}
+.FlexSideOne {
+	background-color: #FFD34E;
+	order: 2;
+}
+
+.FlexSideTwo {
+	background-color: #DB9E36;
+	order: 4;
+}
+
+.FlexFooter {
+	background-color: #BD4932;
+	order: 6;
+	
+}
+
+@media (min-width: 30rem) {
+	.FlexWrapper {
+	flex-flow: row wrap;
+	}
+	.FlexHeader {
+	width: 100%;
+    order: 1;
+	}
+	.FlexContentOne {
+    flex:;
+	order: 3;
+	width:100%
+	}
+  	.FlexContentTwo {
+
+	order: 4;
+	width:100%
+	}
+	.FlexFooter {
+	width: 100%;
+	}
+}
+
+
+
+
+
+/*滚动条*/
+.Scroll_Wrapper {
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	/*Give us inertia style scrolling on WebKit based touch devices*/
+	-webkit-overflow-scrolling: touch;
+	/*Remove the scrollbars in supporting versions of IE*/
+	-ms-overflow-style: none;
+	/* Make a counter */
+	counter-reset: count-the-films;
+}
+
+/*Stops the scrollbar appearing in WebKit browsers*/
+.Scroll_Wrapper::-webkit-scrollbar {
+	display: none;
+}
+
+.Item {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	white-space: normal;
+	counter-increment: count-the-films;
+	position: relative;
+}
+
+.Item::before {
+	content: counter(count-the-films);
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 1rem;
+	line-height: 1rem;
+	top: 0;
+	left: -2rem;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	height: 1.4rem;
+	width: 1.4rem;
+	background-color: #ccc;
+	border: 1px solid #999;
+}
+
+.Item img {
+	max-height: 8.25rem;
+}
+
+.Caption {
+	max-width: 4rem;
+	font-size: 1.25rem;
+	line-height: 1;
+}
+
+
+/*img*/
+
