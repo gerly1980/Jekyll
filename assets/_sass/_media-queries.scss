@@ -182,7 +182,7 @@
 @media print {
   body { font-size: 17px;
   background-color:rgba(203,236,255,1);
-  padding:5mm 5mm 1mm 5mm;}
+  padding:5mm 5mm 5mm 5mm;}
 
   h1 { font-size: 2em; }
   h2 { font-size: 1.8em; }
@@ -267,9 +267,12 @@
   .nav-main a {
     display:none;
   }
+  main {
+    padding-top: .1em;
+  }
   article {
     h2:first-of-type {
-      margin-top: -25px;
+      margin-top: 5px;
     }
   }
 }

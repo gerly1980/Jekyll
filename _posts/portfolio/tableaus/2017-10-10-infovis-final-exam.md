@@ -8,44 +8,46 @@ tags: "infovis"
 categories:
   - infovis
 ---
-<a href="/infovis/infovis-final-exam/"><img src="/infovis/tableau/try.jpg" alt="The picture by final exam" width="600px" height="260px"></a>
+
 * 作品介绍：中国交通设施分布情况
 * 使用关键词：地铁站、高铁站、火车站、汽车站、飞机场；
-* 故事：
-	* 飞机场和火车站遍布中国所有城市
-	* 地铁站的分布以东部地区居多，且覆盖率最少
-	* 高铁集中在东部及中部，火车站中部最多
-	* 无汽车站：台湾省（数据极可能有误）
-	* 奇怪的是，有很多发达城市没有高铁设施。如：江苏省、浙江省。
+* 数据来源：
+	- 高德地图API（通过类型筛选出交通设施服务的数据）
+	- 国家数据（三大经济地带，外自加特别行政区）
+	- 国家数据（交通运输、仓储和邮政业增加值(亿元)）
+* 作品目的：
+	* 1、交通设施在三大经济地带的分布情况及数量？
+	* 2、城市各类交通设施拥有情况？
+	* 3、交通设施拥有量与交通运输产值的关系？
+
 
 
 
 <div style="padding:30px; box-shadow: 10px 10px 5px #888888; border: 1px solid #EA1D2D;">
 <div style="background: #72012c; color:white;border-radius:20px">
-    <h2>1、交通设施在三大经济地带的分布情况及数量</h2>  
+    <h2>1、交通设施在三大经济地带的分布情况及数量</h2>
 </div>
-<iframe src="https://public.tableau.com/shared/BRJX6KCMZ?:display_count=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px" frameborder="0"></iframe>
+<iframe src="https://public.tableau.com/shared/6W7WFX4H5?:display_count=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px" frameborder="0"></iframe>
 <div style="background: #EA1D2D; color:white">
-    <h4>* 汽车分布最为密集，飞机场覆盖范围较大，地铁站分布最少<br>* 高铁集中在东部及中部，火车站中部最多</h4>  
+    <h4>* 汽车分布最为密集，飞机场覆盖范围较大，地铁站分布最少<br>* 高铁集中在东部及中部，火车站中部最多  
+    <br>* 东部城市交通设施最为完善<br>* 西部城市偏低</h4>
 </div>
-<div style="background: #EA1D2D; color:white">
-    <h4>* 东部城市交通设施最为完善<br>* 西部城市偏低</h4>  
-</div>
-<br>
 <div style="background: #72012c; color:white;border-radius:20px">
-    <h2>2、城市交通设施拥有数及Top10？</h2>  
+    <h2>2、城市各类交通设施拥有情况？</h2>  
+</div>
+<iframe src="https://public.tableau.com/views/final-exam-trafficstyles3/sheet7?:embed=y&:display_count=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px"  frameborder="0"></iframe>
+<div style="background: #EA1D2D; color:white">
+	<h4>* 广东省和黑龙江省的各类设施拥有量都排行在Top5内。<br>* 飞机场分布所有城市<br>* 地铁站和高铁站覆盖率并不可观，大多数城市还未拥有。</h4>
 </div>
 
-<iframe src="https://public.tableau.com/shared/3W5C3P59S?:display_count=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px"  frameborder="0"></iframe>
-	
 <div style="background: #72012c; color:white;border-radius:20px">
-    <h2>3、中国城市缺少的交通设施类型及数量？</h2>  
+    <h2>3、交通设施拥有量与交通运输产值的关系</h2>  
 </div>
-<iframe src="https://public.tableau.com/views/final-exam-trafficstyles/FindNone?:embed=y&:display_count=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px"  frameborder="0"></iframe>
+<iframe src="https://public.tableau.com/views/final-exam-trafficstyles3/sheet8?:embed=y&:display_count=yes/sheet8?:embed=y&:display_count=yes&publish=yes/Dashboard1?:showVizHome=no&:embed=true" width="760px" height="900px"  frameborder="0"></iframe>
 <div style="background: #EA1D2D; color:white">
-    <h4>* 飞机场分布所有城市<br>* 无地铁站：海南省、青海省、西藏自治区、澳门特别行政区
-	<br>* 无高铁站：江苏省、四川省、山东省、辽宁省、浙江省、吉林省、陕西省、云南省、江西省、新疆维吾尔自治区、天津市、青海省。西藏自治区、澳门特别行政区
-	<br>* 火车站覆盖所有城市，且数量多
-	<br>* 无汽车站：台湾省（数据极可能有误）</h4>  
+    <h4>* 广东省交通产值具首位，其次是江苏省和山东省
+	<br>* 交通运输产值逐年递增,交通产业发展可观。
+	<br>* 交通产值与交通设施拥有量关系的P值<.0001,达到显著，成相关关系</h4>
 </div>
+
 </div>
