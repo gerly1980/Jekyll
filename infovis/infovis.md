@@ -4,9 +4,9 @@ layout: page
 title:  "infovis"
 crawlertitle: "All tableau"
 bg: "owl.jpg"
-permalink: /infovis/
+
 summary: "Posts about Web"
-active: infovis
+
 ---
 
 {% for post in site.posts limit: 15 %}
