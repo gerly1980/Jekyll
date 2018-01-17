@@ -7,7 +7,7 @@ crawlertitle: "All Web"
 summary: "Posts about Web"
 active: portfolio
 ---
-# This is my Web portfolio!
+
 
 {% for post in site.posts limit: 10 %}
 	{% if post.tags contains "portfolio" %}
