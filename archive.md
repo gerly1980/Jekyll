@@ -2,7 +2,7 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "学习笔记"
+title: "文章"
 crawlertitle: "All articles"
 summary: "Posts about all"
 active: archive

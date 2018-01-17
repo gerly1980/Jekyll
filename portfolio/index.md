@@ -1,7 +1,7 @@
 ---
 layout: default
 bg: "tag.jpg"
-title: "信息可视化作品集"
+title: "可视化作品集"
 permalink: /infovis/
 summary: "Posts about infovis"
 active: infovis
