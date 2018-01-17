@@ -1,7 +1,7 @@
 ---
 bg: "tag.jpg"
 layout: default
-title:  "网页设计作品集"
+title:  "Web作品集"
 permalink: /portfolio/
 crawlertitle: "All Web"
 summary: "Posts about Web"

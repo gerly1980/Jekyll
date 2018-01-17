@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "note.jpg"
 layout: page
 permalink: /posts/infovis/
 title: "可视化笔记"
