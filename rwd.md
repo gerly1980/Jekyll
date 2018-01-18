@@ -8,7 +8,7 @@ summary: "Posts about rwd"
 active: note_web
 ---
 
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 20 %}
 	{% if post.tags contains "note_rwd" %}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
