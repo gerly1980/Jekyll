@@ -44,7 +44,7 @@ categories:
 <body>
 
 <div class="shake">
-	<img src="wcy_logo.svg" alt="Amazing line art of a scone" />
+	<img src="/portfolio/image/wcy_logo.svg" alt="Amazing line art of a scone" />
 </div>​
 <p class="svg_insert">插入方式： 使用img标签</p>
 <p class="svg_opt"> 优化：(44-15)/44=65.9%</p>
