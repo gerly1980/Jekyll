@@ -55,7 +55,7 @@ body:before {
   height: calc(10vh + 25px);
   position: absolute;
   font-size: calc(2vw + 5px);
-  top: calc(110% - 10vw);
+  top: calc(100% - 10vw);
   right: calc(-1% + 10px);
   text-align: left;
   text-indent: calc(2.75vw + 10px);
