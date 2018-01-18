@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "项目小结：用jekyll搭建个人博客"
+date:   2018-01-05
+categories: posts
+tags: "note_rwd"
+categories:
+  - posts
+  - rwd
+---
+
 ### 必要资源
 * github创库，并创建github pages 
     * 最好下载github desktop，然后folk到本地端。
